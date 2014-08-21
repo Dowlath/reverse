@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F71F7AB19A60541009487BB /* method.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F71F7AA19A60541009487BB /* method.m */; };
 		2FABDA18199CCF760089FE71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FABDA17199CCF760089FE71 /* Foundation.framework */; };
 		2FABDA1B199CCF760089FE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FABDA1A199CCF760089FE71 /* main.m */; };
 		2FABDA1F199CCF760089FE71 /* reverse.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FABDA1E199CCF760089FE71 /* reverse.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F71F7A919A60541009487BB /* method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = method.h; sourceTree = "<group>"; };
+		2F71F7AA19A60541009487BB /* method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = method.m; sourceTree = "<group>"; };
 		2FABDA14199CCF760089FE71 /* reverse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = reverse; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FABDA17199CCF760089FE71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2FABDA1A199CCF760089FE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				2FABDA1A199CCF760089FE71 /* main.m */,
+				2F71F7A919A60541009487BB /* method.h */,
+				2F71F7AA19A60541009487BB /* method.m */,
 				2FABDA1E199CCF760089FE71 /* reverse.1 */,
 				2FABDA1C199CCF760089FE71 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F71F7AB19A60541009487BB /* method.m in Sources */,
 				2FABDA1B199CCF760089FE71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +259,7 @@
 				2FABDA24199CCF760089FE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

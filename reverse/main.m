@@ -7,24 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "method.h"
 
 int main(int argc, const char * argv[])
 {
-
+    
     @autoreleasepool {
-        int num,rev;
-        NSLog(@"enter the number");
-        scanf("%i",&num);
-        while (num !=0) {
-            rev=num%10;
-             num/=10;
-             NSLog(@"%i",rev);
-        }
-        
-        // insert code here...
-       // NSLog(@"Hello, World!");
-        
-    }
+    
+        method *mobj=[[method alloc]init];
+      
+        NSLog(@"the answer is%d",  [mobj reverse]);
+       }
+  
     return 0;
 }
-
